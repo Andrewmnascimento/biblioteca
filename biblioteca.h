@@ -1,10 +1,13 @@
 #ifndef BIBLIOTECA_H
 #define BIBLIOTECA_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 #define MAX_STRING 100
 #define CAPACIDADE_INICIAL 10
+
 typedef struct {
     char *titulo;
     char *autor;
